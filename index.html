@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Password Generator</title>
+</head>
+<body>
+    <!-- main body -->
+
+    <div class="main">
+
+        <!-- top sentence -->
+        <h1 class="firstLine">Generate a</h1>
+        <h1 class="secondLine">random password</h1>
+
+        <!-- last sentence  -->
+        <p>Never use an insecure password again.</p>
+
+        <!-- button boxes  -->
+        <div class="button-box">
+
+            <!-- user input  -->
+            <input type="number" min="8" max="20" placeholder="Password length" onchange="validateInput(this)" class="user-input">
+            
+            <!-- password button -->
+            <button onclick="clickButton()">Generate Passwords</button>
+        </div>
+
+        <!-- stroke -->
+        <div class="stroke"></div>
+
+        <!-- password boxes -->
+        <div class="bigBox">
+            <!-- box1 -->
+            <div class="boxOne"></div>
+
+            <!-- box2 -->
+            <div class="boxTwo"></div>
+        </div>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

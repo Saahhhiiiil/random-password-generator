@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body{
+    font-size: 62.5%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #1C1C1C;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Karla", sans-serif;
+}
+
+/* BIG BOX  */
+
+.main{
+    
+    /* border: 0.5rem white solid; */
+    color: #FFFFFF;
+    height: 35rem;
+    width: 50rem;
+    font-size: 2rem;
+    align-items: center;
+    padding: 16rem 8rem;
+    background-color: #1F2937;
+}
+
+/* STATEMENTS  */
+
+.firstLine, .secondLine{
+    margin: 0;
+}
+
+.secondLine {
+    color: #4ADF86;
+    margin-top: 0;
+}
+
+p{
+    color: #D5D4D8;
+    margin: 0;
+}
+
+/* BUTTON  */
+
+button, .user-input{
+    height: 4rem;
+    width: 18rem;
+    /* margin-top: 5rem; */
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    color: #FFFFFF;
+    background-color: #10B981;
+    border: none;
+}
+
+
+.user-input{
+    color: #10B981;
+    border: none;
+    text-align: center;
+    background-color: #2F3E53;
+    outline: none;
+}
+
+
+/* STROKE  */
+
+.stroke{
+    border: 0.1rem #2F3E53 solid;
+    margin: 5rem 0;
+}
+
+
+/* PASSWORD BOXES  */
+
+.bigBox, .button-box{
+    /* border: 0.3rem white solid; */
+    height: 4rem;
+    width: 40rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+}
+
+.boxOne, .boxTwo{
+    /* border: 0.3rem white solid; */
+    height: 4rem;
+    width: 18rem;
+    border-radius: 1rem;
+    font-size: 1.3rem;
+    color: #10B981;
+    background-color: #273549;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
